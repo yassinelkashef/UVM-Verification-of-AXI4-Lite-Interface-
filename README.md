@@ -6,13 +6,13 @@
 ## AXI-Lite Channels:
 ### Supports 2 main operations/transactions: Read and Write.
 ### Read transaction:
-### 1- Read the address channel (data is read from here).
-### 2- Read the data channel.
+###  1- Read the address channel (data is read from here).
+###  2- Read the data channel.
 ![read arch axi](https://github.com/yassinelkashef/UVM-Verification-of-AXI4-Lite-Interface-/assets/110354392/b27ca242-9715-465e-8a84-39e1a79e72e0)
 ### Write transaction:
-### 1- Write the address channel (M Sends data to be written to S).
-### 2- Write a data channel.
-### 3- Write a response channel.
+###  1- Write the address channel (M Sends data to be written to S).
+###  2- Write a data channel.
+###  3- Write a response channel.
 ![write arch axi](https://github.com/yassinelkashef/UVM-Verification-of-AXI4-Lite-Interface-/assets/110354392/ba889b15-9ecc-4596-8d61-2788d1bdb4c1)
 
 
